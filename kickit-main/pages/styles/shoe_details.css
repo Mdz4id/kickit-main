@@ -55,8 +55,8 @@ button{
     color: white;
     width: 380px;
 }
-.but:hover,
-.but.selected {
+
+.but:active{
   background-color: black;
   color: white;
 }

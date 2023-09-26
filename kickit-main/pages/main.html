@@ -8,9 +8,12 @@
 
     <title>Sneakers</title>
 </head>
+
 <body>
+  <div id="minicircle">
+  </div>
   <div class="banner">
-    <div class="header">
+    <div class="header" id="heads">
         <a href="login.html"><img src="../assets/user.png" class="userlogo" height="25px" width="25px"></a>
         <a href="main.html"><img src="../assets/logo.png" class="sitelogo" height="35px" width="120px" ></a>
 
@@ -22,7 +25,7 @@
 
     </div>
     <div class="navbar">
-      <nav>
+      <nav id="navi">
         <ul>
           <li><a href="arrival.html" style="color: black;text-decoration: none;">Arrival</a></li>
           <li>Footware</li>
@@ -30,20 +33,25 @@
         </ul>
       </nav>
     </div>
-    <div class="cover">
+    <div class="cover" id="cover">
       <a href="temp.html" style="height:550px; width: 1030px;grid-row-start: 1;
-      grid-column-end: 1;"><img src="../assets/NITEBALL.webp" alt="" height="550px" width="1030px"></a>
+      grid-column-end: 1;"><img src="../assets/NITEBALL.webp" alt="" height="550px" width="1030px" class="zoom"></a>
+      <div class="smallcover" style="grid-column-end: 2;grid-row-start: 1;">
+          <a href="jordan.html" style="width:430px; height: 250px;"><img src="../assets/jordan.webp" alt="" width="430px" height="250px" class="zoom"></a>
 
-      <a href="jordan.html" style="width:430px; height: 250px;grid-column-end: 2;grid-row-start: 1;"><img src="../assets/jordan.webp" alt="" width="430px" height="250px"></a>
+        <a href="temp.html" style="height:320px; width: 360px;"><img src="..\assets\taxi right.webp" alt="" height="320px" width="360px" class="zoom"></a>
+      </div>
 
+    
+
+      
       
       
       
       
     </div>
   </div>
-    
-
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="anim.js"></script>
 </body>
 </html>
